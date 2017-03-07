@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+html(lang="es")
+head
+  meta(charset="UTF-8")
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  meta(http-equiv="X-UA-Compatible", content="ie=edge")
+  link(rel="stylesheet", href="../css/estilos.css")
+  link(href="https://fonts.googleapis.com/css?family=Russo+One", rel="stylesheet")
+  title Document
+body
+  div
+    header
+      .contenido
+        hgroup
+          h1 CHAPE TU CODIGO
+        nav
+          ul
+            li
+              a(href="index.html") inicio
+            li
+              a(href="tutoriales.html") tutoriales
+            li
+              a(href="contacto.html") contacto
+            li
+              a(href="media.html") media
+        section
+          .textoPre
+            article
+              hgroup
+                h1 Media
+              #mediac
+                .particion(style="margin-right:50px") 
+                  hgroup
+                    h2(style="margin:0") VIDEO
+                  video(width="320" height="240" controls="controls")
+                    source(src="../video/video.mp4" type="video/mp4")
+                    source(src='../video/video.webm' type='video/webm')
+                    source(src='../video/video.ogg' type='video/ogg')
+                .particion
+                  hgroup
+                    h2 AUDIO
+                  audio(controls="controls")
+                    source(src="../audio/audio.mp3" type="audio/mp3")
+  footer
+    canvas#micanvas     
+  script(src="../js/jquery-3.1.1.min.js")
+  script(src="../js/jquery-1.12.3.min.js") 
+  script(src="../js/principal.js") 

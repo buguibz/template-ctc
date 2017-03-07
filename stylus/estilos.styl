@@ -1,0 +1,103 @@
+fondo=#fff6f1
+titulo=#e44e2d
+lititulo=#1d1d1d
+ptexto=#fff
+
+@font-face
+    font-family: 'russo_oneregular';
+    //src: url('russoone-regular-webfont.eot');
+    src: url('../fonts/russoone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/russoone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/russoone-regular-webfont.woff') format('woff'),
+         url('../fonts/russoone-regular-webfont.ttf') format('truetype'),
+         url('../fonts/russoone-regular-webfont.svg#russo_oneregular') format('svg');
+    font-weight normal
+    font-style normal
+
+body
+  background-color fondo
+  font-family "Helvetica", Arial
+
+.contenido
+  width 960px
+  margin 0 auto
+  text-align center
+
+h1
+  color titulo
+  //font-family 'Russo One', sans-serif
+  font-family 'russo_oneregular', sans-serif
+
+nav ul li
+  display inline-block
+  margin-right 20px
+  color lititulo
+  cursor pointer
+
+.textoPre
+  width 600px
+  height 300px
+  background-color lititulo
+  color ptexto
+  margin 0 auto
+  text-align left
+  border-radius 20px
+  padding 20px
+  box-shadow 0px 0px 20px rgba(0,0,0,5)
+
+a
+  color titulo
+  font-weight bold
+
+#micanvas
+  //border solid
+  bottom 0px
+  position absolute
+
+meter
+  background-color #fff
+  border-radius 5px
+  color titulo
+  width 200px
+  padding 2px
+  margin-left 20px
+
+label
+  display block
+
+#btnsubmit
+  border none
+  background-color #fff
+  color titulo
+  padding 4px
+  margin 20px
+  cursor pointer
+  font-family 'russo_oneregular', sans-serif
+
+#calificacion
+  width 150px
+  -webkit-appearance none
+  background-color #fff
+  height 20px
+  border-radius 5px
+  cursor pointer
+
+#calificacion::-webkit-slider-thumb
+  -webkit-appearance none
+  background-color titulo
+  border-radius 10px
+  height 20px
+  width 10px
+
+#mediac
+  box-sizing border-box
+
+.particion
+  display inline-block
+  width 45%
+
+#mediac audio
+  width 280px
+
+#mediac video
+  height 180px
