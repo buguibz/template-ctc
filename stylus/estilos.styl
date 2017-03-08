@@ -28,11 +28,27 @@ h1
   //font-family 'Russo One', sans-serif
   font-family 'russo_oneregular', sans-serif
 
+header hgroup h1
+  text-shadow 0px 0px 30px rgba(0,0,0,0.5)
+
 nav ul li
   display inline-block
   margin-right 20px
   color lititulo
   cursor pointer
+  padding 8px 16px
+
+  transition all 0.5s linear
+  -webkit-transition all 0.5s linear
+  -moz-transition all 0.5s linear
+  -o-transition all 0.5s linear
+
+nav ul li:hover
+  color titulo
+  background-color lititulo
+
+nav ul li a
+  text-decoration none
 
 .textoPre
   width 600px
@@ -51,8 +67,9 @@ a
 
 #micanvas
   //border solid
+  margin-top 20px
   bottom 0px
-  position absolute
+  //position absolute
 
 meter
   background-color #fff
