@@ -49,8 +49,8 @@ Temporary Items
 # No incluir carpeta video y audio
 /video
 /audio
-# No incluir prepro.cfg
-.cfg
+# No incluir prepros.cfg
+prepros.cfg
 # no incluir carpetas jade y stylus
 /jade
 /stylus
