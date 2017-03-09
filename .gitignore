@@ -46,5 +46,11 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# No incluir carpeta video
+# No incluir carpeta video y audio
 /video
+/audio
+# No incluir prepro.cfg
+.cfg
+# no incluir carpetas jade y stylus
+/jade
+/stylus
